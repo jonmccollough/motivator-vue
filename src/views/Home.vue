@@ -44,10 +44,9 @@ export default {
       '"It always seems impossible until it\'s done." - Nelson Mandela',
       '"Whenever I am having a not awesome day I tell myself to start having an awesome day." - Jon McCollough',
       '"How long are you going to wait before you demand the best for yourself?” – Epictetus',
-      '“First say to yourself what you would be; and then do what you have to do.” – Epictetus',
-      '“What man actually needs is not a tensionless state but rather the striving and struggling for some goal worthy of him.” – Viktor Frankl',
-      '“Think of the life you have lived until now as over and, as a dead man, see what’s left as a bonus and live it according to Nature. Love the hand that fate deals you and play it as your own, for what could be more fitting?” – Marcus Aurelius',
-
+      "“First say to yourself what you would be; and then do what you have to do.” – Epictetus",
+      "“What man actually needs is not a tensionless state but rather the striving and struggling for some goal worthy of him.” – Viktor Frankl",
+      "“Think of the life you have lived until now as over and, as a dead man, see what’s left as a bonus and live it according to Nature. Love the hand that fate deals you and play it as your own, for what could be more fitting?” – Marcus Aurelius"
     ]
   }),
   methods: {
@@ -62,11 +61,11 @@ export default {
 </script>
 
 <style scoped>
-img{
+img {
   width: 15%;
 }
 
-button{
+button {
   margin-top: 20px;
   background-color: rgb(87, 171, 242);
   color: white;
@@ -78,19 +77,19 @@ button{
 }
 
 button:hover {
-  background-color:white;
+  background-color: white;
   color: rgb(87, 171, 242);
   border-color: rgb(87, 171, 242);
 }
 
-button:focus{
+button:focus {
   outline: none;
 }
 
 @media screen and (min-width: 700px) {
-    body {
-      margin-left: 180px;
-      margin-right: 180px;
-    }
+  body {
+    margin-left: 180px;
+    margin-right: 180px;
+  }
 }
 </style>
