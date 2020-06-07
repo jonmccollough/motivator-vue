@@ -23,15 +23,10 @@
   </div>
 </template>
 
-<style scoped>
-
-@media screen and (min-width: 900px) {
-    .container {
-      width: 50vw;
-    }
-}
-.container{
+<style>
+#text {
   margin-right: 20px;
+  max-width: 80%;
 }
 
 
