@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home" id="app">
     <title>The Motivator</title>
     <img alt="Vue logo" src="../assets/logo.png" />
     <body>
@@ -8,9 +8,9 @@
         <!--Quote go here -->
         {{ quote }}
       </div>
-      <button onclick="newQuote">Get More Motivated</button>
+      <button v-on:click="newQuote">Get More Motivated</button>
 
-      <script type="application/javascript" src="quotes.js"></script>
+      <!-- <script type="application/javascript" src="quotes.js"></script> -->
     </body>
   </div>
 </template>
@@ -22,7 +22,7 @@ export default {
     url: "https://twitter.com/intent/tweet?text=",
     finalUrl: "",
     random: 0,
-    quote: "Pick a quote",
+    quote: "Let me motivate you!",
     quotes: [
       "A man paints with his brains and not with his hands.",
       "You must submit to supreme suffering in order to discover the completion of joy.",
@@ -36,18 +36,8 @@ export default {
       this.random = Math.floor(Math.random() * 5) + 0;
 
       this.quote = this.quotes[this.random];
-      this.person = this.persons[this.random];
       this.finalUrl = this.url + this.quote;
     }
   }
 };
-// // @ is an alias to /src
-// //import HelloWorld from "@/components/HelloWorld.vue";
-
-// export default {
-//   name: "Home",
-//   components: {
-//     //HelloWorld
-//   }
-// };
 </script>
