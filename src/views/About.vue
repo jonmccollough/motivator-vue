@@ -7,8 +7,8 @@
       <container>
         <p1 id="text">
           This side project started as a joke to help bring some joy to students
-          at Tech Elevator. The Motivator v1 was a simple command line interface
-          written using Java in Eclipse. The Motivator v2 was an attempt to us
+          at Tech Elevator. The Motivator v1 was a command line interface
+          in Eclipse. The Motivator v2 was an attempt to us
           SpringMVC to integrate a seperate SQL database with the intent to make
           it publicly accessable online. This is now the third attempt to write
           The Motivator. This time everything was done using Vue with the
