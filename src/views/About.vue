@@ -14,11 +14,9 @@
           The Motivator. This time everything was done using Vue with the
           intention of making hosting it as simple as possible. <br /><br />
         </p1>
-        <h4>Welcome to The Motivator 3.1 <br /><br /></h4>
+        <h4>Welcome to The Motivator 3.0 <br /><br /></h4>
         <p4>
-          (3.1 update introduced the navigation feature to include this About
-          page... but the router linking was sloppy so I started the whole thing
-          from scratch)
+          You can find me at <a href="https://github.com/jonmccollough" target="_blank">https://github.com/jonmccollough</a>
         </p4>
       </container>
     </body>
