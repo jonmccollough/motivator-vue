@@ -61,35 +61,13 @@ export default {
 </script>
 
 <style scoped>
-img {
-  width: 15%;
-}
-
-button {
-  margin-top: 20px;
-  background-color: rgb(87, 171, 242);
-  color: white;
-  border-color: white;
-  height: 40px;
-  width: 170px;
-  border-radius: 20px;
-  border-style: solid;
-}
-
-button:hover {
-  background-color: white;
-  color: rgb(87, 171, 242);
-  border-color: rgb(87, 171, 242);
-}
-
-button:focus {
-  outline: none;
-}
-
 @media screen and (min-width: 700px) {
   body {
     margin-left: 180px;
     margin-right: 180px;
+  }
+  img {
+    width: 25%
   }
 }
 </style>

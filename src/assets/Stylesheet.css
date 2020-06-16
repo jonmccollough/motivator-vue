@@ -1,0 +1,55 @@
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+#nav {
+  padding: 30px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: rgb(87, 171, 242);
+}
+
+#text {
+  margin-right: 20px;
+  max-width: 80%;
+}
+
+img {
+  width: 30%;
+}
+
+button {
+  margin-top: 20px;
+  background-color: rgb(87, 171, 242);
+  color: white;
+  border-color: white;
+  height: 40px;
+  width: 170px;
+  border-radius: 20px;
+  border-style: solid;
+}
+
+button:hover {
+  background-color: white;
+  color: rgb(87, 171, 242);
+  border-color: rgb(87, 171, 242);
+}
+
+button:focus {
+  outline: none;
+}
+
+#text {
+  margin-right: 20px;
+  max-width: 80%;
+}

@@ -24,10 +24,6 @@
 </template>
 
 <style>
-#text {
-  margin-right: 20px;
-  max-width: 80%;
-}
 @media screen and (min-width: 700px) {
   body {
     margin-left: 40px;
