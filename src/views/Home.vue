@@ -67,7 +67,7 @@ export default {
     margin-right: 180px;
   }
   img {
-    width: 25%
+    max-width: 220px;
   }
 }
 </style>
