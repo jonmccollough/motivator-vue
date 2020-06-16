@@ -17,7 +17,6 @@
 
 <script>
 export default {
-  el: "#app",
   data: () => ({
     url: "https://twitter.com/intent/tweet?text=",
     finalUrl: "",
