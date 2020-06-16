@@ -1,5 +1,5 @@
 <template>
-  <div class="home" id="app">
+  <div class="home" id="main">
     <title>The Motivator</title>
     <img alt="Motivator logo" src="../assets/motivator logo.png" />
     <body>
