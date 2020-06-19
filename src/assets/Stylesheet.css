@@ -45,6 +45,21 @@ button:hover {
   border-color: rgb(87, 171, 242);
 }
 
+#DMQ {
+  background-color: black;
+}
+
+#DMQ:hover{
+  background-color: white;
+  color: black;
+  border-color: black;
+}
+
+#TQ:hover{
+  color: red;
+  border-color: red;
+}
+
 button:focus {
   outline: none;
 }
