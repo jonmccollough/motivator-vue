@@ -1,23 +1,31 @@
 <template>
   <div class="home" id="main">
     <title>The Motivator</title>
-    <img alt="Motivator logo" src="../assets/motivator logo.png" />
+    <img name="Motivator logo" id="logo" src="../assets/motivator logo.png" />
     <body>
       <h1>The Motivator</h1>
       <div id="quoteDisplay">
         <!--Quote go here -->
         {{ quote }}
       </div>
-      <button v-on:click="newQuote">Get More Motivated</button>
+      <container>
+      <div class="buttons">
+      <button v-on:click="newQuote">More Motivation</button>
+      </div>
       <div>
-       <button v-on:click="softQuote">Get Soft Motivation</button>
-       <button id="TQ" v-on:click="toughQuote">Get Tough Motivation</button>
+        <button v-on:click="softQuote">Soft Motivation</button>
+      </div>
+      <div>
+        <button id="TQ" v-on:click="toughQuote">
+          Tough Motivation
+        </button>
       </div>
       <div>
         <button id="DMQ" v-on:click="DMQuote">
-          I got too Motivated. Demotivate me.
+          Demotivation
         </button>
       </div>
+      </container>
     </body>
   </div>
 </template>
@@ -35,11 +43,14 @@ export default {
     quotes: quotejs,
     tQuotes: toughQuote,
     dmquotes: DMquotes,
-    combinedQ: toughQuote.concat(quotejs)
+    combinedQ: toughQuote.concat(quotejs),
+    bluelogo: "../assets/motivator logo.png",
+    redlogo: "../assets/motivator red logo.png",
+    blklogo: "../assets/motivator blk logo2.png"
   }),
   methods: {
     newQuote: function() {
-      const combinedQL = toughQuote.concat(quotejs);
+      let combinedQL = toughQuote.concat(quotejs);
 
       this.random = Math.floor(Math.random() * combinedQL.length);
 
@@ -57,12 +68,17 @@ export default {
 
       this.quote = this.tQuotes[this.random];
       this.finalUrl = this.url + this.quote;
+
+      //this.logo.src = this.redlogo;
+    
     },
     DMQuote: function() {
       this.random = Math.floor(Math.random() * DMquotes.length);
 
       this.quote = this.dmquotes[this.random];
       this.finalUrl = this.url + this.quote;
+
+      //this.logo.src = this.blklogo;
     }
   }
 };
@@ -71,11 +87,11 @@ export default {
 <style scoped>
 @media screen and (min-width: 700px) {
   body {
-    margin-left: 180px;
-    margin-right: 180px;
+    margin-left: 160px;
+    margin-right: 160px;
   }
   img {
-    max-width: 220px;
+    max-width: 200px;
   }
 }
 </style>
